@@ -24,14 +24,14 @@ var leapYear = function(year) {
   }
 };
 
-/*//return false for a year that is divisible by 100
+//return false for a year that is divisible by 400
 var leapYear = function(year) {
   if (year % 400 === 0) {
-    return true;
-  } else {
     return false;
+  } else {
+    return true;
   }
-}; */
+};
 
 //front-end logic
 $(document).ready(function() {
