@@ -1,37 +1,17 @@
 //business logic
 
-//return false for a year that is not a leap year
 var leapYear = function(year) {
     return false;
 };
 
-//return true for a year that is divisible by 4 and return false for a year that is divisible by 100
 var leapYear = function(year) {
-  if (year % 4 === 0) && (year % 100 !==0)) || (year % 400 === 0)) {
+  if ((year % 4 === 0) && (year % 100 !==0) || (year % 400 === 0)) {
     return true;
   } else {
     return false;
   }
 };
 
-//return false for a year that is divisible by 100
-/*
-var leapYear = function(year) {
-  if (year % 100 === 0) {
-    return false;
-  } else {
-    return true;
-  }
-};
-
-//return false for a year that is divisible by 400
-var leapYear = function(year) {
-  if (year % 400 === 0) {
-    return false;
-  } else {
-    return true;
-  }
-};*/
 
 //front-end logic
 $(document).ready(function() {
